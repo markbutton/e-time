@@ -1,0 +1,7 @@
+<div class="tree">
+  <ul>
+    <li *ngFor="let menuItem of MenuItems">
+      <app-menu-item *ngIf="menuItem" [menuItem]="menuItem"></app-menu-item>
+    </li>
+  </ul>
+</div>

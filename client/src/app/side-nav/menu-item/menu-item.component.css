@@ -1,0 +1,14 @@
+.tree-item {
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #999;
+  border-radius:5px;
+  display:inline-block;
+  padding:3px 8px;
+  text-decoration:none
+}
+
+.tree-item img {
+  padding: 0 5px 5px 0;
+  vertical-align: middle;
+}
